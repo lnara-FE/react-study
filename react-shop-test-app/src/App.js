@@ -1,9 +1,10 @@
 import './App.css';
+import OrderPage from './pages/OrderPage/OrderPage';
 
 function App() {
   return (
-    <div className="App">
-      여행 상품 판매 앱
+    <div style={{ padding: '4rem' }}>
+      <OrderPage />
     </div>
   );
 }
